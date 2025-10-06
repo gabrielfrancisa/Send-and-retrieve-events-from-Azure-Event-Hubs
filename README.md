@@ -196,7 +196,8 @@ await foreach (PartitionEvent partitionEvent in consumerClient.ReadEventsAsync(s
         }
     }
 }
-Press ctrl+s to save the file, then ctrl+q to exit the editor.
+
+//Press ctrl+s to save the file, then ctrl+q to exit the editor.
 ```
 
 Sign into Azure and run the app
@@ -213,15 +214,17 @@ You must sign into Azure - even though the cloud shell session is already authen
 After a few seconds, you should see output similar to the following example:
 
 ##
-A batch of 3 events has been published.
-Press Enter to retrieve and print the events...
+>A batch of 3 events has been published.
+>Press Enter to retrieve and print the events...
 
-Retrieving all events from the hub...
-Retrieved event: Event 4
-Retrieved event: Event 96
-Retrieved event: Event 74
-Done retrieving events. Press Enter to exit...
-The application always sends three events to the hub, but it retrieves all events in the hub. If you run the application multiple times an increasing number of events are retrieved. The random numbers used for event creation help you identify different events.
+>Retrieving all events from the hub...
+>Retrieved event: Event 4
+>Retrieved event: Event 96
+>Retrieved event: Event 74
+>Done retrieving events. Press Enter to exit...
+>The application always sends three events to the hub, but it retrieves all events in the hub.
+>If you run the application multiple times an increasing number of events are retrieved.
+>The random numbers used for event creation help you identify different events.
 ##
 
 ## Clean up resources
