@@ -95,9 +95,7 @@ Add the starter code for the project
 Replace any existing contents with the following code.
 Be sure to review the comments in the code, and replace YOUR_EVENT_HUB_NAMESPACE with your event hub namespace.
 
-```
-csharp CODE
-
+```csharp CODE
 using Azure.Messaging.EventHubs;
 using Azure.Messaging.EventHubs.Producer;
 using Azure.Messaging.EventHubs.Consumer;
@@ -196,9 +194,8 @@ await foreach (PartitionEvent partitionEvent in consumerClient.ReadEventsAsync(s
         }
     }
 }
-
-//Press ctrl+s to save the file, then ctrl+q to exit the editor.
 ```
+//Press ctrl+s to save the file, then ctrl+q to exit the editor.
 
 Sign into Azure and run the app
 In the cloud shell command-line pane, enter the following command to sign into Azure.
