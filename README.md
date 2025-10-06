@@ -195,7 +195,7 @@ await foreach (PartitionEvent partitionEvent in consumerClient.ReadEventsAsync(s
     }
 }
 ```
-//Press ctrl+s to save the file, then ctrl+q to exit the editor.
+## Press ctrl+s to save the file, then ctrl+q to exit the editor.
 
 Sign into Azure and run the app
 In the cloud shell command-line pane, enter the following command to sign into Azure.
